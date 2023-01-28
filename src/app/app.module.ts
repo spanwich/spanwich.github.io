@@ -11,6 +11,7 @@ import { TaskCdkModule } from './task-cdk/task-cdk.module';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
+    HeroComponent,
   ],
   imports: [
     TaskCdkModule,
