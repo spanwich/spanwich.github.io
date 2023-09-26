@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
+    <main>
       <h1 className="h1-bold">Please be bold</h1>
-    </div>
+    </main>
   );
 }
