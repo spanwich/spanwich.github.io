@@ -6,10 +6,10 @@ export default function Navbar() {
         <p>Hi Barbie</p>
         <ul className="flex flex-row">
           <Link href="/">
-            <li>Home</li>
+            <li className="h1-bold">Home</li>
           </Link>
           <Link href={{ pathname: "/search", query: { keyword: "this way" } }}>
-            <li>path</li>
+            <li className="h1-bold">path</li>
           </Link>
         </ul>
       </nav>

@@ -1,13 +1,15 @@
-import "./global.css";
 import React from "react";
 import type { Metadata } from "next";
+// eslint-disable-next-line camelcase
 import { Noto_Sans_Thai } from "next/font/google";
 import Navbar from "@/components/navbar/navbar";
 
-const noto_Sans_Thai = Noto_Sans_Thai({
+import "./globals.css";
+
+const notoSansThai = Noto_Sans_Thai({
   subsets: ["latin", "thai"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-notoSanaThai",
+  variable: "--font-notoSansThai",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={noto_Sans_Thai.className}>
+      <body className={notoSansThai.className}>
         <Navbar />
         {children}
       </body>
