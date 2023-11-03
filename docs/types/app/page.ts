@@ -1,4 +1,4 @@
-// File: C:\Users\Dudeeza\Documents\JSMasteryCourse\spanwich.github.io\app\page.tsx
+// File: C:\Users\iammongkol\Documents\GitHub\spanwich.github.io\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
