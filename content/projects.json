@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "description": "This website — built with Next.js 15, Tailwind CSS, and deployed on GitHub Pages.",
+    "tags": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "url": "https://spanwich.github.io",
+    "github": "https://github.com/spanwich/spanwich.github.io"
+  }
+]
